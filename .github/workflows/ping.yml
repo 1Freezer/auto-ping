@@ -1,12 +1,1 @@
-name: Ping website every 3h
-on:
-  schedule:
-    - cron: "0 */3 * * *"   # cada 3 horas
-  workflow_dispatch:        # permite ejecutarlo manualmente
-jobs:
-  ping:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Hit URL
-        run: |
-          curl -fsS -A "Mozilla/5.0 (GH-Actions)" "https://mobile.elderglade.com/game"
+# desactivado
