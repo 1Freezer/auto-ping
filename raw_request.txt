@@ -1,0 +1,20 @@
+POST /auth/email-login HTTP/2
+Host: galva.duelsarena.com
+Cookie: _ga=GA1.1.1873407556.1756190530; _ga_51D36BBKV4=GS2.1.s1759818517$o37$g0$t1759818517$j60$l0$h0
+Content-Length: 46
+Sec-Ch-Ua-Platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+Accept: application/json, text/plain, */*
+Sec-Ch-Ua: "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+Content-Type: application/json
+Sec-Ch-Ua-Mobile: ?0
+Origin: https://mobile.duelsarena.com
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://mobile.duelsarena.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: es-419,es;q=0.9
+Priority: u=1, i
+
+{"email":"gym@gmail.com","password":"free123"}
